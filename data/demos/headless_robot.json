@@ -1,0 +1,65 @@
+{    
+    "body": {
+        "length":48,
+        "parent":null,
+        "direction":90,
+        "sprite":"data/demos/sprites/body.png"
+    },
+
+    "back_arm_1": {
+        "length":24,
+        "parent":"body",
+        "direction":190,
+        "layer":-1,
+        "sprite":"data/demos/sprites/limb.png"
+    },
+    "front_arm_1": {
+        "length":24,
+        "parent":"body",
+        "direction":170,
+        "layer":1,
+        "sprite":"data/demos/sprites/limb.png"
+    },
+    "back_arm_2": {
+        "length":24,
+        "parent":"back_arm_1",
+        "layer":-1,
+        "sprite":"data/demos/sprites/hand.png"
+    },
+    "front_arm_2": {
+        "length":24,
+        "parent":"front_arm_1",
+        "layer":1,
+        "sprite":"data/demos/sprites/hand.png"
+    },
+
+    "back_leg_1": {
+        "length":24,
+        "parent":"body",
+        "direction":190,
+        "layer":-1,
+        "bind_to_end":false,
+        "sprite":"data/demos/sprites/limb.png"
+    },
+    "front_leg_1": {
+        "length":24,
+        "parent":"body",
+        "direction":170,
+        "layer":1,
+        "bind_to_end":false,
+        "sprite":"data/demos/sprites/limb.png"
+    },
+    "back_leg_2": {
+        "length":24,
+        "parent":"back_leg_1",
+        "layer":-1,
+        "sprite":"data/demos/sprites/foot.png"
+    },
+    "front_leg_2": {
+        "length":24,
+        "parent":"front_leg_1",
+        "layer":1,
+        "sprite":"data/demos/sprites/foot.png"
+    }
+
+}

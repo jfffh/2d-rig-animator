@@ -1,0 +1,22 @@
+{
+    "background_color":[0, 0, 0],
+
+    "rig_path":"data/demos/headless_robot.json",
+    "rig_name":"headless_robot",
+    "save_path":null,
+    "load_save_on_boot":false,
+
+    "bone_thickness":2,
+    "bone_highlight_color":[255, 255, 255],
+    "bone_highlight":1,
+    "bone_colors":[[255, 0, 0], [0, 255, 0], [0, 0, 255], [255, 255, 0], [0, 255, 255], [255, 0, 255]],
+
+    "text_color":[1, 1, 1],
+    "ui_background_color":[255, 255, 255],
+
+    "grid_size":[64, 64],
+    "grid_color":[25, 25, 25],
+
+    "export_padding":[10, 10],
+    "export_tag":null
+}
