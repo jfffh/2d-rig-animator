@@ -1,7 +1,9 @@
 **A pythonic 2D rig animator**
+
 A python built 2d rig animator. Design rigs programmatically, then animate them in the editor, save and export them as needed! By default, the program starts up by loading the demo rig, but you can change that in the configs. See below for more details.
 
 **Controls**
+
 Most controls are button based, but there are a few keyboard/mouse controls:
 - left click to move around an element with no parent
 - right click to rotate an element
@@ -9,6 +11,7 @@ Most controls are button based, but there are a few keyboard/mouse controls:
 - tab to cycle through the elements.
 
 **What is a rig?**
+
 A rig consists of a series of elements loaded in from a json file. Each element needs to have a name, length and parent. All other fields are optional.
 
 ```js
@@ -27,6 +30,7 @@ If an element has no parent, it can be freely moved around the editor. However, 
 When rotating elements, elements with parents will rotate around their origin. Elements without parents will rotate around their center.
 
 **Configurations**
+
 These configuration options handle what rig is loaded, where it is saved to, how it is exported, and also include some QOL features to make your life easier! Note that, unlike in rig elements, you cannot delete any config field, as otherwise, the editor will crash!
 
 ```js
@@ -54,4 +58,5 @@ These configuration options handle what rig is loaded, where it is saved to, how
 }
 ```
 **Exporting**
+
 When you click the export button, the program will automatically determine the best size to export the images at. The images will be saved to `user_data/exports`, and will have the file name of `rig_name-frame-frame_no.png` or `rig_name-export_tag-frame-frame_no.png`, if you specify an export tag. Padding controls how much padding is added to the sides of the images, to avoid clipping out sprites you've made.
