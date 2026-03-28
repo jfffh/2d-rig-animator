@@ -1,5 +1,7 @@
 **A pythonic 2D rig animator**
 
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/fa2b6b72-cd69-4c82-9b1c-a00d269587e3)
+
 A python built 2d rig animator. Design rigs programmatically, then animate them in the editor, save and export them as needed! By default, the program starts up by loading the demo rig, but you can change that in the configs. See below for more details.
 
 **Controls**
